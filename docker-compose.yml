@@ -5,3 +5,5 @@ services:
     image: php:7.3-apache
     volumes:
       - ./src:/var/www/html/
+    env_file:
+      - ./.env
