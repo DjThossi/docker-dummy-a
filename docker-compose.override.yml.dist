@@ -9,5 +9,5 @@ services:
 
 networks:
   default:
-    name: docker-dev-nginx
+    name: docker-dev-scripts
     driver: bridge
