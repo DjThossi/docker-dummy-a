@@ -3,6 +3,7 @@ version: '3.7'
 services:
   php:
     image: php:7.3-apache
+    container_name: docker-dummy-a_php
     volumes:
       - ./src:/var/www/html/
     env_file:
